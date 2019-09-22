@@ -3,6 +3,7 @@ export var racedata = [
    {
     name: 'Marine Corps Marathon',
     racedate: '10/27/2019',
+    racetype: 'National Marathon',
     racetime: '00:00',
     runner: 'Gordon',
     photoURL: ''
@@ -11,6 +12,7 @@ export var racedata = [
   {
     name: 'Run 4 The Children',
     racedate: '11/02/2019',
+    racetype: '4 Miles',
     racetime: '00:00',
     runner: 'Gordon',
     photoURL: ''
@@ -19,6 +21,7 @@ export var racedata = [
    {
     name: 'Run 4 The Children',
     racedate: '11/02/2019',
+    racetype: '4 Miles',
     racetime: '00:00',
     runner: 'Rosa',
     photoURL: ''
