@@ -1,45 +1,45 @@
 
 
-<h2>Marathons</h2>
+<h2>Gordon Christie</h2>
 <table border=1>
 <TR style='font-weight: bold' >
-  <TD >Race Name</TD>
-    <TD>PR Time</TD>
-      <TD>Times Ran</TD>
-    </TR> 
+  <TD>Race Name</TD>
+  <TD>Race Date</TD> 
+  <TD>Race Time</TD>
+  <TD>Photo URL</TD>
+</TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='Marathon'"> 
+ <ng-container *ngIf="race.runner=='Gordon'"> 
 <TR   >
-  <TD >{{ race.name }} {{ race.racetype }} </TD>
-  <TD>{{ race.PR }}</TD>
-  <TD align="center">{{ race.count }} </TD>
+  <TD >{{ race.name }}  </TD>
+  <TD>{{ race.racedate }}</TD>
+  <TD>{{ race.racetime }} </TD>
+  <TD>{{ race.photourl }} </TD>
 </TR>
 </ng-container>
 </ng-container>
 
 </table>
-  <button (click)="howmanymarathons()">
-    How Many?
-  </button>
 
-<h2>Half Marathons</h2>
+
+<h2>Rosa Christie</h2>
 <table border=1>
 <TR style='font-weight: bold' >
-  <TD >Race Name</TD>
-    <TD>PR Time</TD>
-      <TD style="align:center">Times Ran</TD>
-    </TR> 
+  <TD>Race Name</TD>
+   <TD>Race Date</TD> 
+  <TD>Race Time</TD>
+  <TD>Photo URL</TD>
+</TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.racetype=='Half Marathon'"> 
+ <ng-container *ngIf="race.runner=='Rosa'"> 
 <TR>
-  <TD>{{ race.name}} {{ race.racetype }}  </TD>
-  <TD>{{ race.PR }}</TD>
-  <TD align="center">{{ race.count }} </TD>
+  <TD >{{ race.name }}  </TD>
+  <TD>{{ race.racedate }}</TD>
+  <TD>{{ race.racetime }} </TD>
+  <TD>{{ race.photourl }} </TD>
 </TR>
 </ng-container>
 </ng-container>
 
 </table>
-  <button (click)="howmanyhalfmarathons()">
-    How Many?
-  </button>
+
