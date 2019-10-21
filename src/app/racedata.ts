@@ -17,6 +17,15 @@ export var racedata = [
     runner: 'Gordon',
     photoURL: ''
   }
+   ,
+   {
+    name: 'Snowdrop 55 Hour Ultra',
+    racedate: '12/30/2019',
+    racetype: '100+Miles',
+    racetime: '00:00',
+    runner: 'Gordon',
+    photoURL: ''
+  }
  ,
    {
     name: 'Run 4 The Children',
