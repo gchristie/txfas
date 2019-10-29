@@ -4,9 +4,9 @@ export var racedata = [
     name: 'Marine Corps Marathon',
     racedate: '10/27/2019',
     racetype: 'National Marathon',
-    racetime: '00:00',
+    racetime: '05:58',
     runner: 'Gordon',
-    photoURL: ''
+    photoURL: 'https://www.marathonfoto.com/Proofs?PIN=Y9V558&LastName=CHRISTIE'
   }
   ,
   {
@@ -33,7 +33,7 @@ export var racedata = [
     racetype: '4 Miles',
     racetime: '00:00',
     runner: 'Rosa',
-    photoURL: ''
+    photoURL: 'PHOTOS'
   }
 
 ];
