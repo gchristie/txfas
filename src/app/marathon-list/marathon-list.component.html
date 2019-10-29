@@ -6,7 +6,8 @@
   <TD>Race Name</TD>
   <TD>Race Type</TD> 
   <TD>Race Date</TD> 
-  <TD>Race Time</TD>
+  <TD>BIB#</TD> 
+  <TD>Results/Time</TD>
   <TD>Photo URL</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
@@ -15,13 +16,24 @@
   <TD >{{ race.name }}  </TD>
   <TD>{{ race.racetype }}</TD>
   <TD>{{ race.racedate }}</TD>
-  <TD align="center">{{ race.racetime }} </TD>
-  <ng-container *ngIf="race.photoURL!=''"> 
-  <TD><a href="{{ race.photoURL }}" Target="GORDON_PHOTOS" >PHOTOS</a>  </TD>
+  <TD>{{ race.bibnumber }}</TD>
+
+
+  <ng-container *ngIf="race.resultsurl!=''"> 
+  <TD><a href="{{ race.resultsurl }}" Target="GORDON_RESULTS" >{{ race.racetime }}</a>  </TD>
   </ng-container>
-  <ng-container *ngIf="race.photoURL==''"> 
+
+  <ng-container *ngIf="race.resultsurl==''"> 
+      <TD align="center">{{ race.racetime }} </TD>
+  </ng-container>
+
+  <ng-container *ngIf="race.photourl!=''"> 
+  <TD><a href="{{ race.photourl }}" Target="GORDON_PHOTOS" >PHOTOS</a>  </TD>
+  </ng-container>
+  <ng-container *ngIf="race.photourl==''"> 
   <TD></TD>
   </ng-container>
+
 </TR>
 </ng-container>
 </ng-container>
@@ -35,7 +47,8 @@
   <TD>Race Name</TD>
   <TD>Race Type</TD> 
   <TD>Race Date</TD> 
-  <TD>Race Time</TD>
+  <TD>BIB#</TD> 
+  <TD>Results/Time</TD>
   <TD>Photo URL</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
@@ -44,6 +57,7 @@
   <TD >{{ race.name }}  </TD>
   <TD>{{ race.racedate }}</TD>
   <TD>{{ race.racetype }}</TD>
+  <TD>{{ race.bibnumber }}</TD>
   <TD align="center">{{ race.racetime }} </TD>
   <TD>{{ race.photourl }} </TD>
 </TR>
