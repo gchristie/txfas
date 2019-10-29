@@ -42,7 +42,7 @@ export var racedata = [
     bibnumber: "",
     racetime: '',
     resultsurl:'',
-    photourl: 'PHOTOS'
+    photourl: ''
   }
 
 ];
