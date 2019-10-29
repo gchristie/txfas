@@ -17,7 +17,7 @@
   <TD>{{ race.racedate }}</TD>
   <TD align="center">{{ race.racetime }} </TD>
   <ng-container *ngIf="race.photoURL!=''"> 
-  <TD><a href="{{ race.photoURL }}">PHOTOS</a>  </TD>
+  <TD><a href="{{ race.photoURL }}" Target="GORDON_PHOTOS" >PHOTOS</a>  </TD>
   </ng-container>
   <ng-container *ngIf="race.photoURL==''"> 
   <TD></TD>
