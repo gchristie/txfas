@@ -16,10 +16,10 @@ export var racedata = [
     name: 'Run 4 The Children',
     racedate: '11/02/2019',
     racetype: '4 Miles',
-    bibnumber: "",
-    racetime: '',
-    resultsurl:'',
-    photourl: ''
+    bibnumber: '437',
+    racetime: '53:56.7',
+    resultsurl:'https://www.runhoustontiming.net/race_result/1572718099_3745642_Overall.htm',
+    photourl: 'https://runsignup.com/Race/Photos/40578/110511/437'
   }
    ,
    {
@@ -27,7 +27,7 @@ export var racedata = [
     name: 'Snowdrop 55 Hour Ultra',
     racedate: '12/30/2019',
     racetype: '100+Miles',
-    bibnumber: "",
+    bibnumber: '',
     racetime: '',
     resultsurl:'',
 
@@ -39,10 +39,10 @@ export var racedata = [
     name: 'Run 4 The Children',
     racedate: '11/02/2019',
     racetype: '4 Miles',
-    bibnumber: "",
-    racetime: '',
-    resultsurl:'',
-    photourl: ''
+    bibnumber: '438',
+    racetime: '53:58.9',
+    resultsurl:'https://www.runhoustontiming.net/race_result/1572718099_3745642_Overall.htm',
+    photourl: 'https://runsignup.com/Race/Photos/40578/110511/438'
   }
 
 ];
