@@ -33,7 +33,7 @@ export var racedata = [
     racetime: '',
     resultsurl:'',
     photourl: '',
-    status:'pending'
+    status:''
   }
  ,
    {
@@ -58,7 +58,7 @@ bibnumber:'',
 racetime:'',
 resultsurl:'',
 photourl:'',
-statue:'pending'
+statue:''
 }
 
 
