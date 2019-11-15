@@ -58,7 +58,7 @@ bibnumber:'',
 racetime:'',
 resultsurl:'',
 photourl:'',
-statue:''
+statu:''
 }
 
 
