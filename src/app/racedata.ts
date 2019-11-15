@@ -8,7 +8,8 @@ export var racedata = [
     bibnumber: '3740',
     racetime: '05:58:34',
     resultsurl:'https://events.hakuapp.com/events/1405901239e66d083c42/live_tracking_results?registration_number=8D1708400CA3',
-    photourl: 'http://marathonfoto.com/Proofs?PIN=Y9V558&LastName=CHRISTIE'
+    photourl: 'http://marathonfoto.com/Proofs?PIN=Y9V558&LastName=CHRISTIE',
+    status: 'Complete'
   }
   ,
   {
@@ -19,7 +20,8 @@ export var racedata = [
     bibnumber: '437',
     racetime: '53:56.7',
     resultsurl:'https://www.runhoustontiming.net/race_result/1572718099_3745642_Overall.htm',
-    photourl: 'https://runsignup.com/Race/Photos/40578/110511/437'
+    photourl: 'https://runsignup.com/Race/Photos/40578/110511/437',
+    status:'Complete'
   }
    ,
    {
@@ -30,8 +32,8 @@ export var racedata = [
     bibnumber: '',
     racetime: '',
     resultsurl:'',
-
-    photourl: ''
+    photourl: '',
+    status:'pending'
   }
  ,
    {
@@ -42,8 +44,29 @@ export var racedata = [
     bibnumber: '438',
     racetime: '53:58.9',
     resultsurl:'https://www.runhoustontiming.net/race_result/1572718099_3745642_Overall.htm',
-    photourl: 'https://runsignup.com/Race/Photos/40578/110511/438'
+    photourl: 'https://runsignup.com/Race/Photos/40578/110511/438',
+    status:'Complete'
   }
+
+,
+{
+runner:'Rosa',
+name:'Rocknroll Las Vegas',
+racedate:'11/17/2019',
+racetype:'Half Marathon',
+bibnumber:'',
+racetime:'',
+resultsurl:'',
+photourl:'',
+statue:'pending'
+
+
+
+
+}
+
+
+
 
 ];
 
