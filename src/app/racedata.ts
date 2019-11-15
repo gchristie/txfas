@@ -28,7 +28,7 @@ export var racedata = [
     runner: 'Gordon',
     name: 'Snowdrop 55 Hour Ultra',
     racedate: '12/30/2019',
-    racetype: '100+Miles',
+    racetype: '55 Hour Solo',
     bibnumber: '',
     racetime: '',
     resultsurl:'',
@@ -58,9 +58,20 @@ bibnumber:'',
 racetime:'',
 resultsurl:'',
 photourl:'',
-statu:''
+status:''
 }
-
+,
+   {
+    runner: 'Rosa',
+    name: 'Snowdrop 55 Hour Ultra Relay',
+    racedate: '12/30/2019',
+    racetype: '55 Hour Relay',
+    bibnumber: '',
+    racetime: '',
+    resultsurl:'',
+    photourl: '',
+    status:''
+  }
 
 
 
