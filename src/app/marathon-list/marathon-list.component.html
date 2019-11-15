@@ -10,31 +10,30 @@
   <TD>Results/Time</TD>
   <TD>Photo URL</TD>
   <TD>Status</TD>
+
 </TR> 
+
 <ng-container *ngFor="let race of racedata">
  <ng-container *ngIf="race.runner=='Gordon'"> 
-<TR   >
+<TR >
   <TD >{{ race.name }}  </TD>
   <TD>{{ race.racetype }}</TD>
   <TD>{{ race.racedate }}</TD>
   <TD>{{ race.bibnumber }}</TD>
   
-
+  <TD>
   <ng-container *ngIf="race.resultsurl!=''"> 
-  <TD><a href="{{ race.resultsurl }}" Target="GORDON_RESULTS" >{{ race.racetime }}</a>  </TD>
+  <a href="{{ race.resultsurl }}" Target="GORDON_RESULTS" >{{ race.racetime }}</a>  
   </ng-container>
+  </TD>
 
-  <ng-container *ngIf="race.resultsurl==''"> 
-      <TD align="center">{{ race.racetime }} </TD>
-  </ng-container>
-
+<TD>
   <ng-container *ngIf="race.photourl!=''"> 
-  <TD><a href="{{ race.photourl }}" Target="GORDON_PHOTOS" >PHOTOS</a>  </TD>
+    <a href="{{ race.photourl }}" Target="GORDON_PHOTOS" >
+    PHOTOS</a>  
   </ng-container>
-  <ng-container _*ngIf="race.photourl==''"> 
-  <TD></TD>
-  </ng-container>
-<TD>{{race.status}}</TD>
+  </TD>
+  <TD>{{race.status}}</TD>
 </TR>
 </ng-container>
 </ng-container>
@@ -52,6 +51,7 @@
   <TD>Results/Time</TD>
   <TD>Photo URL</TD>
   <TD>Status</TD>
+  
 </TR> 
 <ng-container *ngFor="let race of racedata">
  <ng-container *ngIf="race.runner=='Rosa'"> 
@@ -61,21 +61,20 @@
   <TD>{{ race.racedate }}</TD>
   <TD>{{ race.bibnumber }}</TD>
 
+<TD>
   <ng-container *ngIf="race.resultsurl!=''"> 
-  <TD><a href="{{ race.resultsurl }}" Target="ROSA_RESULTS" >{{ race.racetime }}</a>  </TD>
+  <a href="{{ race.resultsurl }}" Target="ROSA_RESULTS" >{{ race.racetime }}</a>  
   </ng-container>
+</TD>
 
-  <ng-container *ngIf="race.resultsurl==''"> 
-      <TD align="center">{{ race.racetime }} </TD>
-  </ng-container>
-
+<TD>
   <ng-container *ngIf="race.photourl!=''"> 
-  <TD><a href="{{ race.photourl }}" Target="ROSA_PHOTOS" >PHOTOS</a>  </TD>
+  <a href="{{ race.photourl }}" Target="ROSA_PHOTOS" >PHOTOS</a>  
   </ng-container>
-  <ng-container *ngIf="race.photourl==''"> 
-  <TD></TD>
-  </ng-container>
-<TD>{{race.status}}</TD>
+</TD>
+  
+  <TD>{{race.status}}</TD>
+
 </TR>
 </ng-container>
 </ng-container>
