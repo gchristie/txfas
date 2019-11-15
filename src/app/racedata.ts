@@ -59,10 +59,6 @@ racetime:'',
 resultsurl:'',
 photourl:'',
 statue:'pending'
-
-
-
-
 }
 
 

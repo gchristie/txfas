@@ -9,6 +9,7 @@
   <TD>BIB#</TD> 
   <TD>Results/Time</TD>
   <TD>Photo URL</TD>
+  <TD>Status</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
  <ng-container *ngIf="race.runner=='Gordon'"> 
@@ -17,7 +18,7 @@
   <TD>{{ race.racetype }}</TD>
   <TD>{{ race.racedate }}</TD>
   <TD>{{ race.bibnumber }}</TD>
-
+  
 
   <ng-container *ngIf="race.resultsurl!=''"> 
   <TD><a href="{{ race.resultsurl }}" Target="GORDON_RESULTS" >{{ race.racetime }}</a>  </TD>
@@ -30,10 +31,10 @@
   <ng-container *ngIf="race.photourl!=''"> 
   <TD><a href="{{ race.photourl }}" Target="GORDON_PHOTOS" >PHOTOS</a>  </TD>
   </ng-container>
-  <ng-container *ngIf="race.photourl==''"> 
+  <ng-container _*ngIf="race.photourl==''"> 
   <TD></TD>
   </ng-container>
-
+<TD>{{race.status}}</TD>
 </TR>
 </ng-container>
 </ng-container>
@@ -50,6 +51,7 @@
   <TD>BIB#</TD> 
   <TD>Results/Time</TD>
   <TD>Photo URL</TD>
+  <TD>Status</TD>
 </TR> 
 <ng-container *ngFor="let race of racedata">
  <ng-container *ngIf="race.runner=='Rosa'"> 
@@ -58,7 +60,6 @@
   <TD>{{ race.racetype }}</TD>
   <TD>{{ race.racedate }}</TD>
   <TD>{{ race.bibnumber }}</TD>
-
 
   <ng-container *ngIf="race.resultsurl!=''"> 
   <TD><a href="{{ race.resultsurl }}" Target="ROSA_RESULTS" >{{ race.racetime }}</a>  </TD>
@@ -74,7 +75,7 @@
   <ng-container *ngIf="race.photourl==''"> 
   <TD></TD>
   </ng-container>
-
+<TD>{{race.status}}</TD>
 </TR>
 </ng-container>
 </ng-container>
