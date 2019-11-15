@@ -51,7 +51,7 @@ export var racedata = [
 ,
 {
 runner:'Rosa',
-name:'Rocknroll Las Vegas',
+name:"Rock 'n' Roll Las Vegas",
 racedate:'11/17/2019',
 racetype:'Half Marathon',
 bibnumber:'',
