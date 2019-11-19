@@ -55,8 +55,8 @@ name:"Rock 'n' Roll Las Vegas",
 racedate:'11/17/2019',
 racetype:'Half Marathon',
 bibnumber:'1406',
-racetime:'',
-resultsurl:'',
+racetime:'03:45:17',
+resultsurl:'https://connect.garmin.com/modern/activity/4262218892',
 photourl:'',
 status:''
 }
