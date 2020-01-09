@@ -29,10 +29,10 @@ export var racedata = [
     name: 'Snowdrop 55 Hour Ultra',
     racedate: '12/30/2019',
     racetype: '55 Hour Solo',
-    bibnumber: '',
-    racetime: '',
-    resultsurl:'',
-    photourl: '',
+    bibnumber: '70',
+    racetime: '17 miles',
+    resultsurl:'https://my.raceresult.com/145480/Live?lang=en#1_BEC6FF',
+    photourl: 'https://photos.app.goo.gl/8UidbZYbVsxjAkwF8',
     status:''
   }
  ,
@@ -58,7 +58,7 @@ bibnumber:'1406',
 racetime:'03:45:17',
 resultsurl:'https://connect.garmin.com/modern/activity/4262218892',
 photourl:'https://www.finisherpix.com/gallery/photos/en/USD/3393/1406',
-status:''
+status:'Complete'
 }
 ,
    {
@@ -66,9 +66,9 @@ status:''
     name: 'Snowdrop 55 Hour Ultra Relay',
     racedate: '12/30/2019',
     racetype: '55 Hour Relay',
-    bibnumber: '',
-    racetime: '',
-    resultsurl:'',
+    bibnumber: '371',
+    racetime: '207 Miles',
+    resultsurl:'https://my.raceresult.com/145480/results?lang=en#2_70740E',
     photourl: '',
     status:''
   }
