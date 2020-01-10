@@ -1,6 +1,6 @@
 
 
-<h2>Gordon Christie</h2>
+<h1>Gordon Christie</h1>
 <table border=1>
 <TR style='font-weight: bold' >
   <TD>Race Name</TD>
@@ -39,8 +39,47 @@
 
 </table>
 
+<h3>Gordon Christie -  Upcoming Races</h3>
+<table border=1>
+<TR style='font-weight: bold' >
+  <TD>Race Name</TD>
+  <TD>Race Type</TD> 
+  <TD>Race Date</TD> 
+  <TD>BIB#</TD> 
+  <TD>Results/Time</TD>
+  <TD>Photo URL</TD>
 
-<h2>Rosa Christie</h2>
+
+</TR> 
+
+<ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.runner=='Gordon' && ( race.status=='Future')"> 
+<TR >
+  <TD >{{ race.name }}  </TD>
+  <TD>{{ race.racetype }}</TD>
+  <TD>{{ race.racedate }}</TD>
+  <TD>{{ race.bibnumber }}</TD>
+  
+  <TD>
+  <ng-container *ngIf="race.resultsurl!=''"> 
+  <a href="{{ race.resultsurl }}" Target="GORDON_RESULTS" >{{ race.racetime }}</a>  
+  </ng-container>
+  </TD>
+
+<TD>
+  <ng-container *ngIf="race.photourl!=''"> 
+    <a href="{{ race.photourl }}" Target="GORDON_PHOTOS" >
+    PHOTOS</a>  
+  </ng-container>
+  </TD>
+</TR>
+</ng-container>
+</ng-container>
+
+</table>
+
+
+<h1>Rosa Christie</h1>
 <table border=1>
 <TR style='font-weight: bold' >
   <TD>Race Name</TD>
@@ -74,6 +113,46 @@
   
   
 
+</TR>
+</ng-container>
+</ng-container>
+
+</table>
+
+
+<h3>Rosa Christie -  Upcoming Races</h3>
+<table border=1>
+<TR style='font-weight: bold' >
+  <TD>Race Name</TD>
+  <TD>Race Type</TD> 
+  <TD>Race Date</TD> 
+  <TD>BIB#</TD> 
+  <TD>Results/Time</TD>
+  <TD>Photo URL</TD>
+
+
+</TR> 
+
+<ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.runner=='Rosa' && ( race.status=='Future')"> 
+<TR >
+  <TD >{{ race.name }}  </TD>
+  <TD>{{ race.racetype }}</TD>
+  <TD>{{ race.racedate }}</TD>
+  <TD>{{ race.bibnumber }}</TD>
+  
+  <TD>
+  <ng-container *ngIf="race.resultsurl!=''"> 
+  <a href="{{ race.resultsurl }}" Target="ROSA_RESULTS" >{{ race.racetime }}</a>  
+  </ng-container>
+  </TD>
+
+<TD>
+  <ng-container *ngIf="race.photourl!=''"> 
+    <a href="{{ race.photourl }}" Target="ROSA_PHOTOS" >
+    PHOTOS</a>  
+  </ng-container>
+  </TD>
 </TR>
 </ng-container>
 </ng-container>
