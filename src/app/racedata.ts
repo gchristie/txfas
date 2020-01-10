@@ -22,15 +22,15 @@ photourl: 'https://photos.app.goo.gl/8UidbZYbVsxjAkwF8'
 }
 ,
 {
-runner: 'Gordon', status:'Future',
-name: 'ABB 5K',    racedate: '01/01/2020',    racetype: '5K', bibnumber: '', racetime: '',   
+runner: 'Gordon', status:'Hide',
+name: 'ABB 5K',    racedate: '01/01/2020',    racetype: '5K', bibnumber: '50018', racetime: '',   
 resultsurl:'',
 photourl: ''
 }
 ,
 {
 runner: 'Gordon', status:'Future',
-name: 'Houston Marathon',    racedate: '01/19/2020',    racetype: 'Marathon', bibnumber: '', racetime: '',   
+name: 'Houston Marathon',    racedate: '01/19/2020',    racetype: 'Marathon', bibnumber: '1155', racetime: '',   
 resultsurl:'',
 photourl: ''
 }
@@ -64,10 +64,10 @@ photourl: ''
 }
 ,
 {
-runner: 'Gordon', status:'Future',
+runner: 'Gordon', status:'Hide',
 name: '',    racedate: '',    racetype: '', bibnumber: '', racetime: '',   
 resultsurl:'',
-photourl: '.'
+photourl: ''
 }
 
 //Rosa Data
@@ -94,7 +94,7 @@ photourl: 'https://photos.app.goo.gl/jkBHYAtgYdTPKC5P6'
 }
 ,
 {
-runner: 'Rosa', status:'Future',
+runner: 'Rosa', status:'Hide',
 name: 'ABB 5K',    racedate: '01/18/2020',    racetype: '5K', bibnumber: '', racetime: '',   
 resultsurl:'',
 photourl: ''
@@ -122,10 +122,10 @@ photourl: ''
 }
 ,
 {
-runner: 'Rosa', status:'Future',
+runner: 'Rosa', status:'Hide',
 name: '',    racedate: '',    racetype: '', bibnumber: '', racetime: '',   
 resultsurl:'',
-photourl: '.'
+photourl: ''
 }
 
 ];
