@@ -64,12 +64,18 @@ photourl: ''
 }
 ,
 {
+runner: 'Gordon', status:'Future',
+name: 'Chicago Marathon',    racedate: '10/11/2020',    racetype: 'National Marathon', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
 runner: 'Gordon', status:'Hide',
 name: '',    racedate: '',    racetype: '', bibnumber: '', racetime: '',   
 resultsurl:'',
 photourl: ''
 }
-
 //Rosa Data
 ,
 {
