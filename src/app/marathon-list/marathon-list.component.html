@@ -14,7 +14,7 @@
 </TR> 
 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.runner=='Gordon' && race.status==''"> 
+ <ng-container *ngIf="race.runner=='Gordon' && (race.status=='' || race.status=='Show')"> 
 <TR >
   <TD >{{ race.name }}  </TD>
   <TD>{{ race.racetype }}</TD>
@@ -53,7 +53,7 @@
   
 </TR> 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.runner=='Rosa' && race.status==''"> 
+ <ng-container *ngIf="race.runner=='Rosa' && (race.status=='' || race.status=='Show')"> 
 <TR   >
   <TD >{{ race.name }}  </TD>
   <TD>{{ race.racetype }}</TD>
