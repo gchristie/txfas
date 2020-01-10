@@ -69,7 +69,7 @@ status:'Complete'
     bibnumber: '371',
     racetime: '207 Miles',
     resultsurl:'https://my.raceresult.com/145480/results?lang=en#2_70740E',
-    photourl: '',
+    photourl: 'https://photos.app.goo.gl/jkBHYAtgYdTPKC5P6',
     status:''
   }
 
