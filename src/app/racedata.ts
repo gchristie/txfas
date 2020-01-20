@@ -23,15 +23,15 @@ photourl: 'https://photos.app.goo.gl/8UidbZYbVsxjAkwF8'
 ,
 {
 runner: 'Gordon', status:'Hide',
-name: 'ABB 5K',    racedate: '01/01/2020',    racetype: '5K', bibnumber: '50018', racetime: '',   
+name: 'ABB 5K',    racedate: '01/01/2020',    racetype: '5K', bibnumber: '50018', racetime: '27:16',   
 resultsurl:'',
 photourl: ''
 }
 ,
 {
 runner: 'Gordon', status:'Future',
-name: 'Houston Marathon',    racedate: '01/19/2020',    racetype: 'Marathon', bibnumber: '1155', racetime: '',   
-resultsurl:'',
+name: 'Houston Marathon',    racedate: '01/19/2020',    racetype: 'Marathon', bibnumber: '1155', racetime: '5:11:06',   
+resultsurl:'https://track.rtrt.me/e/HOU-2020#/tracker/R7E2CFGR',
 photourl: ''
 }
 ,
