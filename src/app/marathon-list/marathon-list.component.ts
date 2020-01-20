@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { runnerdata } from '../racedata';
 import { racedata } from '../racedata';
 
 @Component({
@@ -8,44 +8,41 @@ import { racedata } from '../racedata';
   styleUrls: ['./marathon-list.component.css']
 })
 export class MarathonListComponent {
+  runnerdata= runnerdata;
   racedata = racedata;
 
-  share() {
-    window.alert('The product has been shared!');
-  }
 
-  howmanymarathons() 
+ShowTab(racetype) 
   {
-          var i;
-          var imarathons = 0;
-          for (i = 0; i < racedata.length; i++) 
-          {
-             if (racedata[i].racetype.toString() == 'Marathon')
-             {
-               imarathons += racedata[i].count;
-               racedata[i].racetype = 'Half Marathon';
-             }
-         
-          }
-           window.alert(imarathons + ' Marathons');
-  
- }
-
-  howmanyhalfmarathons() 
-  {
-          var i;
-          var ihalfmarathons = 0;
-          for (i = 0; i < racedata.length; i++) 
-          {
-             if (racedata[i].racetype.toString() == 'Half Marathon')
-             {
-               ihalfmarathons += racedata[i].count;     
-             }         
-          }
-    window.alert(ihalfmarathons + ' Half Marathons');
+    if (racetype == 'Gordon')
+    {  
+      document.getElementById('Gordon').hidden = false;
+      document.getElementById('Rosa').hidden = true;
+      document.getElementById('Tanya').hidden = true;
+      document.getElementById('Les').hidden = true;
+    }
+    else if (racetype == 'Rosa')
+    {
+      document.getElementById('Gordon').hidden = true;
+      document.getElementById('Rosa').hidden = false;
+      document.getElementById('Tanya').hidden = true;
+      document.getElementById('Les').hidden = true;      
+    } 
+    else if (racetype == 'Tanya')
+    {
+      document.getElementById('Gordon').hidden = true;
+      document.getElementById('Rosa').hidden = true;
+      document.getElementById('Tanya').hidden = false;
+      document.getElementById('Les').hidden = true;      
+    } 
+    else if (racetype == 'Les')
+    {
+      document.getElementById('Gordon').hidden = true;
+      document.getElementById('Rosa').hidden = true;
+      document.getElementById('Tanya').hidden = true;
+      document.getElementById('Les').hidden = false;      
+    }     
   }
-
-
 }
 
 /*

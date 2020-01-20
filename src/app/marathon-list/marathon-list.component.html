@@ -3,24 +3,21 @@
 <div class="tab">
   <button (click)="ShowTab('Gordon')" class="tablinks" >Gordon</button>
   <button (click)="ShowTab('Rosa')" class="tablinks" >Rosa</button>
+  <button (click)="ShowTab('Tanya')" class="tablinks" >Tanya</button>
+  <button (click)="ShowTab('Les')" class="tablinks" >Les</button>
 </div>
 
-
-<h1>Gordon Christie</h1>
+<ng-container *ngFor="let runner of runnerdata">
+<DIV id="{{runner.runner}}">
+<h1>{{runner.runner}}</h1>
 <table border=1>
 <TR style='font-weight: bold' >
-  <TD>Race Name</TD>
-  <TD>Race Type</TD> 
-  <TD>Race Date</TD> 
-  <TD>BIB#</TD> 
-  <TD>Results/Time</TD>
-  <TD>Photo URL</TD>
-
-
+  <TD>Race Name</TD>  <TD>Race Type</TD>   <TD>Race Date</TD> 
+  <TD>BIB#</TD>   <TD>Results/Time</TD>  <TD>Photo URL</TD>
 </TR> 
 
 <ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.runner=='Gordon' && (race.status=='' || race.status=='Show')"> 
+ <ng-container *ngIf="race.runner==runner.runner && (race.status=='' || race.status=='Show')"> 
 <TR >
   <TD >{{ race.name }}  </TD>
   <TD>{{ race.racetype }}</TD>
@@ -29,13 +26,13 @@
   
   <TD>
   <ng-container *ngIf="race.resultsurl!=''"> 
-  <a href="{{ race.resultsurl }}" Target="GORDON_RESULTS" >{{ race.racetime }}</a>  
+  <a href="{{ race.resultsurl }}" Target="RESULTS" >{{ race.racetime }}</a>  
   </ng-container>
   </TD>
 
 <TD>
   <ng-container *ngIf="race.photourl!=''"> 
-    <a href="{{ race.photourl }}" Target="GORDON_PHOTOS" >
+    <a href="{{ race.photourl }}" Target="PHOTOS" >
     PHOTOS</a>  
   </ng-container>
   </TD>
@@ -45,7 +42,7 @@
 
 </table>
 
-<h3>Gordon Christie -  Upcoming Races</h3>
+<h3>{{ runner.runner }} -  Upcoming Races</h3>
 <table border=1>
 <TR style='font-weight: bold' >
   <TD>Race Name</TD>
@@ -55,11 +52,10 @@
   <TD>Results/Time</TD>
   <TD>Photo URL</TD>
 
-
 </TR> 
 
-<ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.runner=='Gordon' && ( race.status=='Future')"> 
+ <ng-container *ngFor="let race of racedata">
+ <ng-container *ngIf="race.runner==runner.runner && ( race.status=='Future')"> 
 <TR >
   <TD >{{ race.name }}  </TD>
   <TD>{{ race.racetype }}</TD>
@@ -68,13 +64,13 @@
   
   <TD>
   <ng-container *ngIf="race.resultsurl!=''"> 
-  <a href="{{ race.resultsurl }}" Target="GORDON_RESULTS" >{{ race.racetime }}</a>  
+  <a href="{{ race.resultsurl }}" Target="RESULTS" >{{ race.racetime }}</a>  
   </ng-container>
   </TD>
 
 <TD>
   <ng-container *ngIf="race.photourl!=''"> 
-    <a href="{{ race.photourl }}" Target="GORDON_PHOTOS" >
+    <a href="{{ race.photourl }}" Target="HOTOS" >
     PHOTOS</a>  
   </ng-container>
   </TD>
@@ -83,85 +79,8 @@
 </ng-container>
 
 </table>
+</DIV>
 
 
-<h1>Rosa Christie</h1>
-<table border=1>
-<TR style='font-weight: bold' >
-  <TD>Race Name</TD>
-  <TD>Race Type</TD> 
-  <TD>Race Date</TD> 
-  <TD>BIB#</TD> 
-  <TD>Results/Time</TD>
-  <TD>Photo URL</TD>
-  
-  
-</TR> 
-<ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.runner=='Rosa' && (race.status=='' || race.status=='Show')"> 
-<TR   >
-  <TD >{{ race.name }}  </TD>
-  <TD>{{ race.racetype }}</TD>
-  <TD>{{ race.racedate }}</TD>
-  <TD>{{ race.bibnumber }}</TD>
 
-<TD>
-  <ng-container *ngIf="race.resultsurl!=''"> 
-  <a href="{{ race.resultsurl }}" Target="ROSA_RESULTS" >{{ race.racetime }}</a>  
-  </ng-container>
-</TD>
-
-<TD>
-  <ng-container *ngIf="race.photourl!=''"> 
-  <a href="{{ race.photourl }}" Target="ROSA_PHOTOS" >PHOTOS</a>  
-  </ng-container>
-</TD>
-  
-  
-
-</TR>
 </ng-container>
-</ng-container>
-
-</table>
-
-
-<h3>Rosa Christie -  Upcoming Races</h3>
-<table border=1>
-<TR style='font-weight: bold' >
-  <TD>Race Name</TD>
-  <TD>Race Type</TD> 
-  <TD>Race Date</TD> 
-  <TD>BIB#</TD> 
-  <TD>Results/Time</TD>
-  <TD>Photo URL</TD>
-
-
-</TR> 
-
-<ng-container *ngFor="let race of racedata">
- <ng-container *ngIf="race.runner=='Rosa' && ( race.status=='Future')"> 
-<TR >
-  <TD >{{ race.name }}  </TD>
-  <TD>{{ race.racetype }}</TD>
-  <TD>{{ race.racedate }}</TD>
-  <TD>{{ race.bibnumber }}</TD>
-  
-  <TD>
-  <ng-container *ngIf="race.resultsurl!=''"> 
-  <a href="{{ race.resultsurl }}" Target="ROSA_RESULTS" >{{ race.racetime }}</a>  
-  </ng-container>
-  </TD>
-
-<TD>
-  <ng-container *ngIf="race.photourl!=''"> 
-    <a href="{{ race.photourl }}" Target="ROSA_PHOTOS" >
-    PHOTOS</a>  
-  </ng-container>
-  </TD>
-</TR>
-</ng-container>
-</ng-container>
-
-</table>
-

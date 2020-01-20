@@ -1,3 +1,11 @@
+
+export var runnerdata = [
+{runner: 'Gordon'}
+,{runner: 'Rosa'}
+,{runner: 'Tanya'}
+,{runner: 'Les'}
+
+]
 export var racedata = [
 //Gordon Data
 {
@@ -133,5 +141,18 @@ name: '',    racedate: '',    racetype: '', bibnumber: '', racetime: '',
 resultsurl:'',
 photourl: ''
 }
-
+,
+{
+runner: 'Tanya', status:'Show',
+name: '',    racedate: '',    racetype: '', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
+runner: 'Les', status:'Show',
+name: '',    racedate: '',    racetype: '', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
 ];
