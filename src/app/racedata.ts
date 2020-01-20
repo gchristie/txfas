@@ -15,7 +15,7 @@ photourl: 'https://runsignup.com/Race/Photos/40578/110511/437'
 }
 ,
 {
-runner: 'Gordon', status:'',
+runner: 'Gordon', status:'Show',
 name: 'Snowdrop 55 Hour Ultra',    racedate: '12/30/2019',    racetype: '55 Hour Solo', bibnumber: '70', racetime: '17 miles',   
 resultsurl:'https://my.raceresult.com/145480/Live?lang=en#1_BEC6FF',   
 photourl: 'https://photos.app.goo.gl/8UidbZYbVsxjAkwF8'
@@ -29,7 +29,7 @@ photourl: ''
 }
 ,
 {
-runner: 'Gordon', status:'Future',
+runner: 'Gordon', status:'Show',
 name: 'Houston Marathon',    racedate: '01/19/2020',    racetype: 'Marathon', bibnumber: '1155', racetime: '5:11:06',   
 resultsurl:'https://track.rtrt.me/e/HOU-2020#/tracker/R7E2CFGR',
 photourl: ''
