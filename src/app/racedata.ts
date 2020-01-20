@@ -144,6 +144,13 @@ photourl: ''
 ,
 {
 runner: 'Tanya', status:'Show',
+name: 'Houston Marathon',    racedate: '01/19/2020',    racetype: 'Marathon', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
+runner: 'Tanya', status:'Hide',
 name: '',    racedate: '',    racetype: '', bibnumber: '', racetime: '',   
 resultsurl:'',
 photourl: ''
@@ -151,7 +158,14 @@ photourl: ''
 ,
 {
 runner: 'Les', status:'Show',
-name: '',    racedate: '',    racetype: '', bibnumber: '', racetime: '',   
+name: 'Bagel Run',    racedate: 'Once in a while',    racetype: '', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
+runner: 'Les', status:'Future',
+name: 'Beer Run',    racedate: 'Frequently',    racetype: 'Get Beer', bibnumber: '', racetime: '',   
 resultsurl:'',
 photourl: ''
 }
