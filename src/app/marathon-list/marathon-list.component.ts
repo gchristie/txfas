@@ -7,13 +7,15 @@ import { racedata } from '../racedata';
   templateUrl: './marathon-list.component.html',
   styleUrls: ['./marathon-list.component.css']
 })
-export class MarathonListComponent {
+
+export class MarathonListComponent 
+{
   runnerdata= runnerdata;
   racedata = racedata;
 
 
 ShowTab(racetype) 
-  {
+{
     if (racetype == 'Gordon')
     {  
       document.getElementById('Gordon').hidden = false;
@@ -41,7 +43,14 @@ ShowTab(racetype)
       document.getElementById('Rosa').hidden = true;
       document.getElementById('Tanya').hidden = true;
       document.getElementById('Les').hidden = false;      
-    }     
+    }  
+    else if (racetype == 'All')
+    {  
+      document.getElementById('Gordon').hidden = false;
+      document.getElementById('Rosa').hidden = false;
+      document.getElementById('Tanya').hidden = false;
+      document.getElementById('Les').hidden = false;
+    }           
   }
 }
 

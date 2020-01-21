@@ -1,11 +1,11 @@
 
-
-<div class="tab">
+<DIV id="showtab" class="myTab" > 
+  <button (click)="ShowTab('All')" class="tablinks" >All</button>
   <button (click)="ShowTab('Gordon')" class="tablinks" >Gordon</button>
   <button (click)="ShowTab('Rosa')" class="tablinks" >Rosa</button>
   <button (click)="ShowTab('Tanya')" class="tablinks" >Tanya</button>
-  <button (click)="ShowTab('Les')" class="tablinks" >Les</button>
-</div>
+  <button (click)="ShowTab('Les')" class="tablinks" >Les</button> 
+</DIV>
 
 <ng-container *ngFor="let runner of runnerdata">
 <DIV id="{{runner.runner}}">

@@ -12,6 +12,46 @@ export class TopBarComponent implements OnInit {
   ngOnInit() {
   }
 
+ShowTab(racetype) 
+{
+    if (racetype == 'Gordon')
+    {  
+      document.getElementById('Gordon').hidden = false;
+      document.getElementById('Rosa').hidden = true;
+      document.getElementById('Tanya').hidden = true;
+      document.getElementById('Les').hidden = true;
+    }
+    else if (racetype == 'Rosa')
+    {
+      document.getElementById('Gordon').hidden = true;
+      document.getElementById('Rosa').hidden = false;
+      document.getElementById('Tanya').hidden = true;
+      document.getElementById('Les').hidden = true;      
+    } 
+    else if (racetype == 'Tanya')
+    {
+      document.getElementById('Gordon').hidden = true;
+      document.getElementById('Rosa').hidden = true;
+      document.getElementById('Tanya').hidden = false;
+      document.getElementById('Les').hidden = true;      
+    } 
+    else if (racetype == 'Les')
+    {
+      document.getElementById('Gordon').hidden = true;
+      document.getElementById('Rosa').hidden = true;
+      document.getElementById('Tanya').hidden = true;
+      document.getElementById('Les').hidden = false;      
+    } 
+    else if (racetype == 'All')
+    {  
+      document.getElementById('Gordon').hidden = false;
+      document.getElementById('Rosa').hidden = false;
+      document.getElementById('Tanya').hidden = false;
+      document.getElementById('Les').hidden = false;
+    }    
+  }
+
+
 }
 
 

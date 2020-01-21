@@ -12,13 +12,18 @@ body {
   margin: 0;
 }
 
+
+.myTab{
+    width:810px;
+    background: #3277d5;
+}
 .container {
   display: flex;
   flex-direction: row;
 }
 
 router-outlet + *  {
-  padding: 0 16px;
+  padding: 0 px;
 }
 
 /* Text */
