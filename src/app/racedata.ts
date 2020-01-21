@@ -40,7 +40,7 @@ photourl: ''
 runner: 'Gordon', status:'Show',
 name: 'Houston Marathon',    racedate: '01/19/2020',    racetype: 'Marathon', bibnumber: '1155', racetime: '5:11:06',   
 resultsurl:'https://track.rtrt.me/e/HOU-2020#/tracker/R7E2CFGR',
-photourl: ''
+photourl: 'https://www.marathonfoto.com/Proofs?PIN=YTVY76&lastName=CHRISTIE'
 }
 ,
 {
@@ -146,7 +146,7 @@ photourl: ''
 runner: 'Tanya', status:'Show',
 name: 'Houston Marathon',    racedate: '01/19/2020',    racetype: 'Marathon', bibnumber: '10671', racetime: '6:44:18',   
 resultsurl:'https://track.rtrt.me/e/HOU-2020#/tracker/R7E2CFGR,RSL5KFUR',
-photourl: ''
+photourl: 'https://www.marathonfoto.com/Proofs?PIN=YTU720&lastName=BYINGTON'
 }
 ,
 {
