@@ -44,10 +44,10 @@ photourl: 'https://www.marathonfoto.com/Proofs?PIN=YTVY76&lastName=CHRISTIE'
 }
 ,
 {
-runner: 'Gordon', status:'Future',
-name: 'Hot Chocolate 5K',    racedate: '02/01/2020',    racetype: '5K', bibnumber: '', racetime: '',   
-resultsurl:'',
-photourl: ''
+runner: 'Gordon', status:'Show',
+name: 'Hot Chocolate 5K',    racedate: '02/01/2020',    racetype: '5K', bibnumber: '2790', racetime: '00:25:59',   
+resultsurl:'https://raceday.enmotive.com/?_ga=2.212775700.1672733268.1580870943-807939382.1580870943#/events/2020-allstate-hot-chocolate-15k-5k-houston/registrants/5de7e810-2dc0-4e98-a666-4cdac0a80a41',
+photourl: 'https://raceday.enmotive.com/?_ga=2.212775700.1672733268.1580870943-807939382.1580870943#/events/2020-allstate-hot-chocolate-15k-5k-houston/registrants/5de7e810-2dc0-4e98-a666-4cdac0a80a41'
 }
 ,
 {
@@ -87,14 +87,14 @@ photourl: ''
 //Rosa Data
 ,
 {
-runner: 'Rosa', status:'Show',
+runner: 'Rosa', status:'Hide',
 name: 'Run 4 The Children',racedate: '11/02/2019',racetype: '4 Miles',bibnumber: '438',racetime: '53:58.9',
 resultsurl:'https://www.runhoustontiming.net/race_result/1572718099_3745642_Overall.htm',
 photourl: 'https://runsignup.com/Race/Photos/40578/110511/438'
 }
 ,
 {
-runner:'Rosa',status:'Show',
+runner:'Rosa',status:'Hide',
 name:"Rock 'n' Roll Las Vegas",racedate:'11/17/2019',racetype:'Half Marathon',bibnumber:'1406',racetime:'03:45:17',
 resultsurl:'https://connect.garmin.com/modern/activity/4262218892',
 photourl:'https://www.finisherpix.com/gallery/photos/en/USD/3393/1406'
@@ -115,10 +115,10 @@ photourl: ''
 }
 ,
 {
-runner: 'Rosa', status:'Future',
-name: 'Hot Chocolate 5K',    racedate: '02/01/2020',    racetype: '5K', bibnumber: '', racetime: '',   
-resultsurl:'',
-photourl: ''
+runner: 'Rosa', status:'Show',
+name: 'Hot Chocolate 5K',    racedate: '02/01/2020',    racetype: '5K', bibnumber: '2791', racetime: '00:43:05',   
+resultsurl: 'https://raceday.enmotive.com/?_ga=2.212775700.1672733268.1580870943-807939382.1580870943#/events/2020-allstate-hot-chocolate-15k-5k-houston/registrants/5de7e7a5-40d8-4c3a-b8a5-63ebc0a80a41',
+photourl: 'https://raceday.enmotive.com/?_ga=2.212775700.1672733268.1580870943-807939382.1580870943#/events/2020-allstate-hot-chocolate-15k-5k-houston/registrants/5de7e7a5-40d8-4c3a-b8a5-63ebc0a80a41'
 }
 ,
 {
