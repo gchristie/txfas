@@ -52,6 +52,13 @@ photourl: 'https://raceday.enmotive.com/?_ga=2.212775700.1672733268.1580870943-8
 ,
 {
 runner: 'Gordon', status:'Future',
+name: 'Rodeo Run',    racedate: '02/29/2020',    racetype: '5K', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
+runner: 'Gordon', status:'Future',
 name: 'Wonder Woman 5K',    racedate: '04/05/2020',    racetype: '5K', bibnumber: '', racetime: '',   
 resultsurl:'',
 photourl: ''
@@ -66,7 +73,28 @@ photourl: ''
 ,
 {
 runner: 'Gordon', status:'Future',
+name: 'No Label Triathlon',    racedate: '04/11/2020',    racetype: 'Sprint Triathlon', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
+runner: 'Gordon', status:'Future',
 name: 'Boston Marathon',    racedate: '04/20/2020',    racetype: 'National Marathon', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
+runner: 'Gordon', status:'Future',
+name: 'BPMS 150',    racedate: '05/??/2020',    racetype: 'National Biking Event', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
+runner: 'Gordon', status:'Future',
+name: 'Tunnel Marathon',    racedate: '06/??/2020',    racetype: 'National Marathon', bibnumber: '', racetime: '',   
 resultsurl:'',
 photourl: ''
 }
@@ -80,7 +108,28 @@ photourl: ''
 ,
 {
 runner: 'Gordon', status:'Hide',
-name: '',    racedate: '',    racetype: '', bibnumber: '', racetime: '',   
+name: 'Las Vegas Marathon',    racedate: '',    racetype: 'National Marathon', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
+runner: 'Gordon', status:'Hide',
+name: 'San Antonio Marathon',    racedate: '',    racetype: 'National Marathon', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
+runner: 'Gordon', status:'Hide',
+name: 'Snowdrop 55',    racedate: '',    racetype: '55 Hour Ultra', bibnumber: '', racetime: '',   
+resultsurl:'',
+photourl: ''
+}
+,
+{
+runner: 'Gordon', status:'Hide',
+name: 'Houston Marathon',    racedate: '',    racetype: 'National Marathon', bibnumber: '', racetime: '',   
 resultsurl:'',
 photourl: ''
 }
